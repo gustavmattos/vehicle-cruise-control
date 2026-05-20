@@ -17,7 +17,7 @@ fmax = pmax/vmax; %força máxima
 b = (fmax - c*vmax^2)/vmax 
 %% simulação
 alpha =0;
-sim('malhaabertacarrin')
+sim('vehicle_longitudinal_openloop')
 v= ans.v.Data;
 t= ans.v.Time;
 F= ans.F.data;
